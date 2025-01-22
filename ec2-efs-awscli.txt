@@ -1,0 +1,5 @@
+aws ec2 create-security-group \
+--region ca-central-1 \
+--group-name efs-walkthrough1-ec2-sg \
+--description "Amazon EFS walkthrough 1, SG for EC2 instance" \
+--vpc-id vpc-063632df62ea1985b
